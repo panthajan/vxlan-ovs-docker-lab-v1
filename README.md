@@ -24,7 +24,7 @@ VxLAN traffic is encapsulated before it is sent over the network. This creates s
 
 #### How traffic passes through a simple VxLAN network.
 
-![Project Diagram](https://github.com/panthajan/vxlan-ovs-docker-lab-v1/blob/main/vxlan_PacketWalk.png)
+![Project Diagram](https://github.com/panthajan/vxlan-ovs-docker-lab-v1/blob/master/vxlan_PacketWalk.png)
 
 _the diagrom is taken from networkdirection blog_
 
@@ -35,7 +35,7 @@ _the diagrom is taken from networkdirection blog_
 
 ### Get an overview of the hands-on from the diagram below
 
-![Project Diagram](https://github.com/panthajan/vxlan-ovs-docker-lab-v1/blob/main/vxlan-deployment-scenario.png)
+![Project Diagram](https://github.com/panthajan/vxlan-ovs-docker-lab-v1/blob/master/vxlan-deployment-scenario.png)
 
 **_For this demo, as I am going to keep everything simple and only focus on vxlan feature, anyone can deploy two VM on any hypervisor or virtualization technology. Make sure they are on the same network thus hosts can communicate each other. I launched two ec2 instance(ubuntu) which is on same VPC from AWS to simulate this hands-on. In case of AWS, please allow all traffic in security group to avoid connectivity issues._**
 
